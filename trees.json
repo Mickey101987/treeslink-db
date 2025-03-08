@@ -1,0 +1,203 @@
+{
+  "trees": [
+    {
+      "id": 1,
+      "celebrityId": 4,
+      "name": "Rihanna's Career Secrets",
+      "coverImgUrl": "assets/images/book/rihanna-cover.jpg",
+      "description": "In this video, Rihanna shares her daily routine and tips for staying at the top of her career.",
+      "type": "Interview",
+      "level": "Advanced",
+      "children": [2, 3],
+      "date": "2022-08-10",
+      "duration": "1 hour"
+    },
+    {
+      "id": 2,
+      "celebrityId": 4,
+      "name": "Rihanna's Morning Routine",
+      "coverImgUrl": "assets/images/book/rihanna-4.webp",
+      "description": "Discover how Rihanna starts her day to ensure productivity and success.",
+      "type": "Routine",
+      "level": "Intermediate",
+      "children": [],
+      "date": "2022-09-15",
+      "duration": "30 minutes"
+    },
+    {
+      "id": 3,
+      "celebrityId": 4,
+      "name": "Rihanna's Fitness Regimen",
+      "coverImgUrl": "assets/images/book/rihanna-3.jpg",
+      "description": "Learn about Rihanna's workout routine and how she stays fit and healthy.",
+      "type": "Fitness",
+      "level": "Intermediate",
+      "children": [],
+      "date": "2022-10-01",
+      "duration": "45 minutes"
+    },
+    {
+      "id": 4,
+      "celebrityId": 1,
+      "name": "Comment tirer un bon centre",
+      "coverImgUrl": "assets/images/book/cr7-cover.jpg",
+      "description": "Another fake tree for testing",
+      "type": "Technique",
+      "level": "Beginner",
+      "children": [],
+      "date": "2022-09-15",
+      "duration": "0:45 min"
+    },
+    {
+      "id": 5,
+      "celebrityId": 1,
+      "name": "La routine alimentaire d'un joueur de football",
+      "coverImgUrl": "assets/images/book/cover-cr.jpg",
+      "description": "Yet another fake tree",
+      "type": "Dietetique",
+      "level": "Advanced",
+      "children": [],
+      "date": "2022-07-20",
+      "duration": "6 months"
+    },
+    {
+      "id": 6,
+      "celebrityId": 1,
+      "name": "Comment s'échauffé pour un match d'envergure",
+      "coverImgUrl": "assets/images/book/cover-cr.jpg",
+      "description": "Yet another fake tree",
+      "type": "Dietetique",
+      "level": "Advanced",
+      "children": [],
+      "date": "2022-07-20",
+      "duration": "6 months"
+    },
+    {
+      "id": 7,
+      "celebrityId": 1,
+      "name": "Comment entrer dans la peaux du personnage",
+      "coverImgUrl": "assets/images/book/cover-cr.jpg",
+      "description": "Yet another fake tree",
+      "type": "Dietetique",
+      "level": "Advanced",
+      "children": [],
+      "date": "2022-07-20",
+      "duration": "6 months"
+    },
+    {
+      "id": 8,
+      "celebrityId": 1,
+      "name": "Faire des cascades accrobatiques",
+      "coverImgUrl": "assets/images/book/cover-cr.jpg",
+      "description": "Yet another fake tree",
+      "type": "Dietetique",
+      "level": "Advanced",
+      "children": [],
+      "date": "2022-07-20",
+      "duration": "6 months"
+    }
+  ],
+  "treestcher": [
+    {
+      "id": 1,
+      "name": "Cristiano Ronaldo",
+      "isCertified": true,
+      "speciality": "Footballeur",
+      "description": "Cristiano Ronaldo dos Santos Aveiro, couramment appelé Cristiano Ronaldo ou Ronaldo et surnommé CR7, né le 5 février 1985 à Funchal, est un footballeur international portugais qui joue au poste d'attaquant au Al-Nassr FC.",
+      "imageUrl": "assets/images/instructor/cristiano-ronaldo.jpg",
+      "domain": "Sport",
+      "trees": [4, 5, 6]
+    },
+    {
+      "id": 2,
+      "name": "Vin Diesel",
+      "isCertified": true,
+      "speciality": "Acteur",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/vin-diesel.webp",
+      "domain": "Cinéma",
+      "trees": [7, 8]
+    },
+    {
+      "id": 3,
+      "name": "Candice Swanepoel",
+      "isCertified": true,
+      "speciality": "Model",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/candice-swanepoel.jpg",
+      "domain": "Fashion/Mode",
+      "trees": []
+    },
+    {
+      "id": 4,
+      "name": "Rihanna",
+      "isCertified": true,
+      "speciality": "Artiste/Musician",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/rihanna.jpg",
+      "domain": "Showbiz",
+      "trees": [1]
+    },
+    {
+      "id": 5,
+      "name": "Lionnel Messi",
+      "isCertified": true,
+      "speciality": "Footballeur",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/lionnel-messi.jpg",
+      "domain": "Sport",
+      "trees": []
+    },
+    {
+      "id": 6,
+      "name": "Francis Nganou",
+      "isCertified": true,
+      "speciality": "Boxeur",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/francis-ngannou.jpg",
+      "domain": "Sport",
+      "trees": []
+    },
+    {
+      "id": 7,
+      "name": "Lewis Hamilthon",
+      "isCertified": true,
+      "speciality": "Pilote F1",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/PA-28870289.jpg",
+      "domain": "Sport",
+      "trees": []
+    },
+    {
+      "id": 8,
+      "name": "Kim Kardashian",
+      "isCertified": true,
+      "speciality": "Model",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/kim-kardashian.jpg",
+      "domain": "Fashion/Mode",
+      "trees": []
+    },
+    {
+      "id": 9,
+      "name": "Rafael Nadal",
+      "isCertified": true,
+      "speciality": "Tennisman",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/rafael-nadal.jpg",
+      "domain": "Sport",
+      "trees": []
+    },
+    {
+      "id": 10,
+      "name": "Scarlett Johansson",
+      "isCertified": true,
+      "speciality": "Actrice/Comedienne",
+      "description": "We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the job done so that’s why this course is packed with practical hands-on examples that you can follow step by step",
+      "imageUrl": "assets/images/instructor/scarlett-johansson.jpg",
+      "domain": "Cinéma",
+      "trees": []
+    }
+  ]
+
+}
